@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Jenkins Build Status Favicon
 // @namespace    https://github.com/kellyselden
-// @version      5
+// @version      6
 // @description  Monitor builds using tab icons
 // @updateURL    https://raw.githubusercontent.com/kellyselden/jenkins-build-status-favicon/main/meta.js
 // @downloadURL  https://raw.githubusercontent.com/kellyselden/jenkins-build-status-favicon/main/user.js
@@ -9,7 +9,7 @@
 // @license      MIT
 // @source       https://github.com/kellyselden/jenkins-build-status-favicon
 // @supportURL   https://github.com/kellyselden/jenkins-build-status-favicon/issues/new
-// @match        http*://*jenkins*/job/*
+// @include      http*://*jenkins*/job/*
 // ==/UserScript==
 'use strict';
 
